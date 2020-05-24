@@ -37,7 +37,7 @@ header > h1 {
 }
 
 .badge {
-  background-color: #e25840;
+  background-color: #00008b;
   color: white;
   font-size: 1rem;
   padding: 0.25rem;
@@ -86,7 +86,7 @@ header > h1 {
 
 .choice:hover {
   cursor: pointer;
-  background: red;
+  background: #00008b;
 }
 
 p#action-message {
