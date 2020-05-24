@@ -2,8 +2,7 @@
 
 body {
   background-image: url('images/flag.gif');
-  background-size: 100%;
-  background-color: #292c34;
+  background-size: 100rem 100rem;
   color: white;
 }
 
@@ -104,15 +103,15 @@ img {
 
 .green-glow {
   border: 2rem solid #4dcc7d;
-  box-shadow: 0 0 2rem #31b43a;
+  box-shadow: 0 0 1.5rem #31b43a;
 }
 
 .red-glow {
   border: 2rem solid #fc121b;
-  box-shadow: 0 0 2rem #d01115;
+  box-shadow: 0 0 1.5rem #d01115;
 }
 
 .grey-glow {
   border: 2rem solid #464647;
-  box-shadow: 0 0 2rem #25292b;
+  box-shadow: 0 0 1.5rem #25292b;
 }
