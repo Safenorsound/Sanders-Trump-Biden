@@ -94,6 +94,7 @@ p#action-message {
   font-family: Asap, san-serif;
   font-weight: bold;
   font-size: 2rem;
+  text-shadow: 0.25rem 0.25rem black;
 }
 
 img {
