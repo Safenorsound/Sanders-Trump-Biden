@@ -15,9 +15,9 @@ function getComputerChoice() {
 }
 
 function convertToWord(letter) {
-  if (letter === 'r') return 'Biden';
+  if (letter === 'r') return 'Sanders';
   if (letter === 'p') return 'Trump';
-  return 'Sanders';
+  return 'Biden';
 }
 
 function win(userChoice, computerChoice) {
@@ -53,14 +53,14 @@ function draw(userChoice, computerChoice) {
 function game(userChoice) {
   const computerChoice = getComputerChoice();
   switch (userChoice + computerChoice) {
-    case 'rs':
-    case 'pr':
-    case 'sp':
-      win(userChoice, computerChoice);
-      break;
     case 'rp':
     case 'ps':
     case 'sr':
+      win(userChoice, computerChoice);
+      break;
+    case 'rs':
+    case 'pr':
+    case 'sp':
       lose(userChoice, computerChoice);
       break;
     case 'rr':
