@@ -15,9 +15,9 @@ function getComputerChoice() {
 }
 
 function convertToWord(letter) {
-  if (letter === 'r') return 'Rock';
-  if (letter === 'p') return 'Paper';
-  return 'Scissors';
+  if (letter === 'r') return 'Biden';
+  if (letter === 'p') return 'Trump';
+  return 'Sanders';
 }
 
 function win(userChoice, computerChoice) {
